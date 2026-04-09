@@ -1,0 +1,15 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '5.1.0'
+}
+
+group = 'com.takoage'
+version = '1.0.0'
+
+minecraft {
+    version = "1.20.1"
+    runDir = "run"
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:1.20.1-40.1.0"
+}
