@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="*"
+
+[[mods]]
+id="mekanism_pipe_generator"
+version="1.0.0"
+name="Mekanism Pipe Generator"
+description="A mod for generating power using Mekanism pipes."
+author="TAKOAGE-2929"
+url="https://github.com/TAKOAGE-2929/takoage"
+
+[[dependencies.mekanism_pipe_generator]]
+    modId="mekanism"
+    mandatory=true
+    versionRange="[10.0.0,)
+    ordering="after"
